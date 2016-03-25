@@ -1,0 +1,50 @@
+body {
+	background: white;
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+	div {
+		/*background-color: #000;*/
+
+		.fix {
+			overflow: hidden;
+		    overflow-x: hidden;
+		    overflow-y: hidden;
+		}
+
+		.header_bottom_aera {
+			/*background: #000 url("images/header_bottom_bg.png") repeat scroll 0px 0px;*/
+			background-color: #000;
+			background-image: url("images/header_bottom_bg.png");
+			background-repeat: repeat;
+			background-attachment: scroll;
+			background-position: 0px 0px;
+			min-height: 210px;
+		}
+
+	
+		.fix_logo_floatleft {
+			margin-top: 50px;
+			width: 300px;
+		}
+
+		h1 {
+			color: #F1EEE5;
+			float: left;
+			font-size: 34px;
+			line-height: 42px;
+			margin-bottom: 0px;
+			font-family: helvetica;
+			font-weight: bold;
+		}
+
+		p {
+			border-left: 1px solid #787878;
+			color: #787878;
+			float: right;
+			margin-top: 15px;
+			padding-left: 10px;
+		}
+	}
