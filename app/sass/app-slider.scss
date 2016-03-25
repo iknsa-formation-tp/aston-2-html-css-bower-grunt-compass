@@ -1,0 +1,98 @@
+body {
+	background: grey;
+}
+/*ST 03/2016*/
+
+/**************
+*
+* Section .content_area
+*
+**************/
+/*
+*Slider
+*/
+.fix {
+	.slider_top_border {
+	}
+	.slider{
+		width: 980px; 
+		height: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		.slider_container{
+			.slides_container{
+
+				img {
+					width: 980px; 
+					height: 300px; 
+					top: 0px;
+					z-index:-1; 
+					position: absolute; 
+					overflow: hidden;
+				}
+			}
+			.nav_slider_container{
+				width: 720px; 
+				height: 100px;
+				margin-top:226px;
+				margin-left: auto;
+				margin-right: auto;
+				background-color: blue;
+
+				.btn_nav{
+					width: 35px;
+					height: 100px;
+					background-color: #000;
+				}
+				.left{
+					float:left;
+				}
+				.right{
+					float:right;
+				}
+				.img_nav_container{
+					width: 650px;
+					height: 90px;
+					position: relative;
+					bottom: 5px;
+					top: 5px;
+					margin-left: 35px;
+					margin-right:35px;
+					background-color:#FFF;
+
+				}
+				.thumbnail{
+					width:16%;
+					height: 80px;
+					position: relative;
+					left: 5px;
+					right: 5px;
+					bottom: 5px;
+					top: 5px;
+					display: inline-block;
+					background-color: red;
+
+					figure{
+						width:99px;
+						height:66px;
+						margin : auto;
+						position: relative;
+						top: 8px;
+						background-color: black;
+
+						img{
+
+							position: relative;
+							margin-bottom: 50px;
+
+						}
+					}
+				}
+
+			}
+
+		}
+
+	}
+
+}
